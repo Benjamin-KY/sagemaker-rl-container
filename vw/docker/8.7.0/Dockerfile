@@ -1,4 +1,4 @@
-FROM ubuntu:xenial-20210416
+FROM ubuntu:rolling
 
 RUN apt-get -y remove "^python*"
 
